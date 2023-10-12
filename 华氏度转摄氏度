@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(void)
+{
+	double F,C;
+	printf("请输入华氏度:");
+	scanf("%lf",&F);
+	 C=5.00/9.00*(F-32);
+	 printf("得到的摄氏度:%.2f\n",C);
+	 return 0;
+} 
